@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lms-frontend"
+    }
+  },
+  "defaultProject": "lms-frontend",
+  "cli": {
+    "analytics": "78628d11-cda8-4c00-a4e3-ab4862a8c9bd"
+  }
 }
