@@ -18,9 +18,13 @@ import { InputTextareaModule } from "primeng/inputtextarea";
 import { MessagesModule } from "primeng/messages";
 import { DropdownModule } from "primeng/dropdown";
 import { MultiSelectModule } from "primeng/multiselect";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   exports: [
+    DropdownModule,
+    FormsModule,
+    MultiSelectModule,
     InputTextModule,
     ButtonModule,
     PanelModule,
@@ -38,8 +42,6 @@ import { MultiSelectModule } from "primeng/multiselect";
     DynamicDialogModule,
     InputTextareaModule,
     MessagesModule,
-    DropdownModule,
-    MultiSelectModule,
   ],
 })
 export class NgPrimeModule {}
