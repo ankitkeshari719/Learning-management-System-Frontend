@@ -22,8 +22,8 @@ import { FormsModule } from "@angular/forms";
 
 @NgModule({
   exports: [
-    DropdownModule,
     FormsModule,
+    DropdownModule,
     MultiSelectModule,
     InputTextModule,
     ButtonModule,
