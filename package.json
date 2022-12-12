@@ -28,7 +28,7 @@
     "@ngx-translate/http-loader": "^4.0.0",
     "angular-user-idle": "^2.2.2",
     "chart.js": "^2.9.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "path": "^0.12.7",
     "prettier": "^2.0.5",
     "primeflex": "^1.1.1",
